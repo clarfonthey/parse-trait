@@ -1,0 +1,19 @@
+[package]
+name = "parse-trait"
+version = "1.0.0"
+authors = ["ltdk <usr@ltdk.xyz>"]
+edition = "2021"
+description = ""
+readme = "README.md"
+repository = "https://vc.ltdk.xyz/ltdk/parse-trait"
+license-file = "LICENSE.md"
+categories = []
+include = ["src/**/*", "LICENSE", "README.md", "CHANGELOG.md"]
+
+[dependencies]
+
+[dev-dependencies]
+num-traits = "0.2.15"
+
+[features]
+default = []
